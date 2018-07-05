@@ -30,7 +30,7 @@ namespace Guard2._0
         
         public async Task StartAsync()
         {
-            Config.bot.token = "MzQyNDE2NzM3NTIzODU5NDU3.DftMZQ.VU3Tuy0MX30Pm3rC7fXaGZg7_B4";
+            Config.bot.token = "";
             //if (Config.bot.token == "" || Config.bot.token == null) return;
             //Console.WriteLine("Token");
             _client = new DiscordSocketClient(new DiscordSocketConfig
