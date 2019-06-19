@@ -18,15 +18,12 @@ namespace Guard2._0
             ulong GuildID = 307901408034684929;
             ulong ChannelID = 307901408034684929;
 
-            //ulong GuildID = 342413932448972810;
-            //ulong ChannelID = 342413932448972810;
 
-            //342413932448972810  342413932448972810
-            //307901408034684929  Memengrad
+
 
             if (Global.Client.GetGuild(GuildID).GetTextChannel(ChannelID) != null)
             {
-                //307901408034684929 307901408034684929
+
                 //
                 channel = Global.Client.GetGuild(GuildID).GetTextChannel(ChannelID);
                 System.Console.WriteLine("Direct reading success");
